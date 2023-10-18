@@ -1,6 +1,6 @@
 {
     "rfid":{
-        "porta":"/dev/ttyUSB1",
+        "porta":"/dev/ttyUSB0",
         "velocidade":"9600",
         "ArquivoSaida":"rfid.json"
     }

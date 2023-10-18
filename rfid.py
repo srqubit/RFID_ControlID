@@ -9,7 +9,7 @@ def read_rfid(porta, velocidade):
     try:
         ser = serial.Serial(porta)
         ser.baudrate = int(velocidade)
-        ser.timeout=10
+        ser.timeout=1
         ser.flushInput()
         
         daten = ser.readline().strip()
